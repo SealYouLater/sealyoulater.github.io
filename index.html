@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <style>
       /* GLOBAL STYLES*/
+      html, body{
+        margin:0;
+        padding: 0;
+      }
+      h1 {
+        margin-top: 0;
+      }
       a {
         color: #ff0000;
       }
@@ -11,20 +18,60 @@
         font-size: 30px;
       }
 
+      /* Hero STYLES*/
+      .full-hero{
+        background-color: #c7dbfc;
+        height: 40vh;
+
+      }
 
       /* SOCIAL STYLES */
-      .social-link {
+    .social-link {
         color: blue;
         background: rgba(150,150,150, 0.5)
+        display: inline-block;
+        height: 36px;
+        width: 36px;
           }
+
+    .social-list{
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    .social-list > li {
+      display: inline-block;
+    }
 
       /* BIO STYLES */
     .bio-wrapper{
-
+      font-size: 24px;
+      margin: auto;
+      max-width: 940px;
+      overflow: hidden;
     }
+
     .bio-box{
         border: 1px solid #000;
-        width: 50%;
+        box-sizing: border-box;
+        float: left;
+        font-size: 1rem;
+        margin: 40PX 1% 0;
+        padding: 2%;
+        width: 23%;
+        }
+    .bio-box h3{
+      color: red;
+      font-size: 1.5em;
+      margin: -40 0 1em;
+      text-align: center;
+        }
+    .bio-box img{
+      width: 100%;
+    }
+    .bio-copy{
+          font-size: 1em;
         }
     .bio-copy a{
           color: green;
@@ -33,22 +80,28 @@
     </style>
   </head>
   <body>
-      <h1>I'm an h1</h1>
-      <ul>
-        <li>
-          <a href="https://example.com/">Link</a>
-        </li>
-        <li>
-          <a href="https://example.com/">Link</a>
-        </li>
-        <li>
-          <a href="https://example.com/">Link</a>
-        </li>
-      </ul>
+      <div class="full-hero hero-home">
+
+      <h1><img src="images/banner.jpg" alt-"logo" height="300vh"></h1>
+        <ul class="social-list">
+          <li>
+            <a href="https://example.com/" class="social-link">Link</a>
+          </li>
+          <li>
+            <a href="https://example.com/" class="social-link">Link</a>
+          </li>
+          <li>
+            <a href="https://example.com/" class="social-link">Link</a>
+          </li>
+        </ul>
+      </div>
+
       <h2>I'm an h2</h2>
+
       <div class="bio-wrapper>"
         <div></div>
         <div class="bio-box">
+          <img src="https://placekitten.com/g/400/400" />
           <h3>Spencer Asch-Jones</h3>
             <a href="https://twitter.com/SpennyAJ4" class="social-link">here</a>
             <div class="bio-copy">
@@ -66,6 +119,7 @@
           </div>
 
         <div class="bio-box">
+          <img src="https://placekitten.com/g/400/400" />
           <h3>Stefan maskimiocihhcich</h3>
           <a href="https://twitter.com/" class="social-link">here</a>
           <div class="bio-copy">
@@ -77,6 +131,7 @@
           </div>
         </div>
         <div class="bio-box">
+          <img src="https://placekitten.com/g/400/400" />
           <h3>Featured guest: Mathew Seal</h3>
           <a href="https://twitter.com/SealYouLater" class="social-link">here</a>
           <div class="bio-copy">
@@ -87,11 +142,16 @@
           </div>
         </div>
         <div class="bio-box">
+          <img src="https://placekitten.com/g/400/400" />
           <h3>??</h3>
           <p>
             The Future
           </p>
         </div>
       </div>
+
+
+
+
     </body>
 </html>
