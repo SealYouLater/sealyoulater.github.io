@@ -14,6 +14,7 @@ summary, time, mark, audio, video {
   border: 0;
   font: inherit;
   vertical-align: baseline;
+  
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -147,6 +148,26 @@ a img {
         font-size: 30px;
       }
 
+     /* HEADER styles */
+      .header-nav{
+          float: right;
+          padding: 5.5vh 60px 0 0;
+      }
+      
+      .header-nav a{
+          color: #000;
+          font-size: 0.8rem;
+          font-weight: bold;
+          text-decoration: none;
+          text-transform: uppercase;
+      }
+      
+      .header-nav > li{
+          display: inline-block;
+          margin-left: 1em;
+          
+      }
+     
       /* Hero STYLES*/
       .full-hero{
         background-color: #c7dbfc;
