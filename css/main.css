@@ -141,6 +141,7 @@ a img {
       h1 {
         margin-top: 0;
       }
+
       a {
         color: #ff0000;
       }
@@ -148,18 +149,62 @@ a img {
         font-size: 30px;
       }
 
+      h2 + p{
+      	font-size: 0.8em;
+      	font-style: italic;
+      	margin: 1em auto 0 auto;
+      	max-width: 70%;
+      	text-align: center;
+      }
+
      /* HEADER styles */
+      .header{
+      	background-color: #000;
+      	color: #fff;
+      
+      }
+
       .header-nav{
           float: right;
           padding: 5.5vh 60px 0 0;
       }
       
       .header-nav a{
-          color: #000;
+          color: #FFF;
           font-size: 0.8rem;
           font-weight: bold;
           text-decoration: none;
           text-transform: uppercase;
+      }
+      .header-nav > li:first-child a{
+      	color: #ed6e2f;
+      }
+      .header-nav > li:first-child a:hover{
+      	color: #FFF;
+      }
+      .header-nav > li ~ li{
+      	border-left: 1px solid rgba(255,255,255,0.3);
+      	padding-left: 1em;
+      }
+      .header-nav a:hover,
+      .header-nav a:active {
+      	color: #ed6e2f;
+      }
+      
+      .header-logo{
+      	background-color: #000;
+      	display: block;
+      	height: 10vh;
+      	position: relative;
+      	width: 10vh;
+      	text-align:center;
+      }
+      .header-logo img{
+        height:80%;
+      }
+      .header-logo:hover,
+      .header-logo:active{
+      	opacity: 0.5;
       }
       
       .header-nav > li{
@@ -194,6 +239,10 @@ a img {
         width: 2.5em;
           }
 
+   	.social-link:hover,
+    .social-link:active {
+      	background: #3462f7;
+      }  
     .social-list{
       list-style: none;
       padding: 0;
