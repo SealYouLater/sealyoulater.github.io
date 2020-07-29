@@ -106,18 +106,12 @@ a img {
       overflow: hidden;
     }
 
-    .bio-box{
-        border: 1px solid #000;
-        float: left;
-        font-size: 1rem;
-        margin: 40px 1% 0;
-        padding: 0 2% 2%;
-        width: 18%;
-        }
+   
     .bio-box h3{
-      color: red;
+      color: black;
       font-size: 1.5em;
-      margin: -40px 0 1em;
+      margin: -6rem 0 0;
+      padding: 0 3%;
       text-align: center;
         }
     .bio-box img{
@@ -231,14 +225,22 @@ a img {
       /* Hero STYLES*/
       .full-hero{
         background-color: #c7dbfc;
-        height: 40vh;
+        background-size: cover;
+        box-sizing: border-box;
+        height: 75vh;
+        padding-top: 11vh;
 
+      }
+      .hero-home{
+        background-image: url(/images/banner.jpg);
+        background-position: center top;
+        
       }
 
       /* SOCIAL STYLES */
     .social-link {
         color: #FFF;
-        background: rgba(150,150,150, 0.5);
+        background: rgba(0,0,0, 0.5);
         display: inline-block;
         font-family: helvetica, arial, sans;
         font-size: 1rem;
@@ -268,12 +270,37 @@ a img {
       display: inline-block;
       margin: 0 0.8em;
     }
-
+      /* HOME PAGE STYLES*/
+      .home-section{
+        margin: 2rem auto;
+        max-width: 1200px;
+        width: 95vw;
+      }
+      .home-section h2{
+        margin-botton: 1.5rem;
+        text-align: center;
+      }
+      
+      .home-callout{
+        background-color: black;
+        color: white;
+        text-align:center;
+        padding: 7vh 0;
+      }
+      
+      .callout-title{
+        font-size: 2vw;
+        text-align:center;
+        
+      }
+      
+      
+      
       /* BIO STYLES */
     .bio-wrapper{
       font-size: 24px;
       margin: auto;
-      max-width: 940px;
+      max-width: 960px;
       overflow: hidden;
     }
 
@@ -283,13 +310,14 @@ a img {
     }
     
     .bio-box{
-        border: 1px solid #000;
+        box-sizing: border-box;
         float: left;
         font-size: 1rem;
-        margin: 40px 1% 0;
-        padding: 0 2% 2%;
-        width: 18%;
+        margin: 2rem 5 0;
+        padding: 0 3%;
+        width: 23%;
         }
+        
     .bio-box h3{
       color: red;
       font-size: 1.5em;
