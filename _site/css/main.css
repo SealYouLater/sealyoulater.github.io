@@ -48,17 +48,6 @@ a img {
 
 /* reset */
 
-      /* GLOBAL STYLES*/
-     
-      h1 {
-        margin-top: 0;
-      }
-      a {
-        color: #ff0000;
-      }
-      h2{
-        font-size: 30px;
-      }
 
       /* Hero STYLES*/
       .full-hero{
@@ -67,63 +56,6 @@ a img {
 
 
       }
-
-      /* SOCIAL STYLES */
-    .social-link {
-        color: #FFF;
-        background: rgba(150,150,150, 0.5);
-        display: inline-block;
-        font-family: helvetica, arial, sans;
-        font-size: 1rem;
-        font-weight: bold;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 99px;
-        box-sizing: border-box;
-        height: 2.5em;
-        line-height:1;
-        padding-top: 0.85em;
-        vertical-align: middle;
-        width: 2.5em;
-          }
-
-    .social-list{
-      list-style: none;
-      padding: 0;
-      text-align: center;
-    }
-
-    .social-list > li {
-      display: inline-block;
-      margin: 0 0.8em;
-    }
-
-      /* BIO STYLES */
-    .bio-wrapper{
-      font-size: 24px;
-      margin: auto;
-      max-width: 940px;
-      overflow: hidden;
-    }
-
-   
-    .bio-box h3{
-      color: black;
-      font-size: 1.5em;
-      margin: -6rem 0 0;
-      padding: 0 3%;
-      text-align: center;
-        }
-    .bio-box img{
-      width: 100%;
-    }
-    .bio-copy{
-          font-size: 1em;
-          line-height: 1.5;
-        }
-    .bio-copy a{
-          color: green;
-        }
 
 
 
@@ -135,9 +67,20 @@ a img {
       }
 
      body{
-         font-family:helvetica, arial, sans;
+       display: flex;
+       flex-direction: column;
+       min-height: 100vh;
+      font-family:helvetica, arial, sans;
      }
 
+      .content-container{
+        flex-grow: 1;
+        padding-top: 8vh;
+        padding-bottom: 10vh;
+        width: 100%;
+      
+      }
+      
       h1 {
         font-size: 7vw;
         margin-top: 0;
@@ -148,6 +91,10 @@ a img {
       }
       h2{
         font-size: 30px;
+      }
+      
+      p{
+        line-height:1.5;
       }
 
       h2 + p{
@@ -306,7 +253,7 @@ a img {
 
     .bio-box .social-link{
         display: block;
-        margin: 2em 0 1em;
+        margin: 2em auto 1em;
     }
     
     .bio-box{
@@ -328,10 +275,10 @@ a img {
       width: 100%;
     }
     .bio-copy{
-          font-size: 1em;
-          line-height: 1.5;
+          font-size: 0.75em;
+          
         }
     .bio-copy a{
-          color: green;
+          color: blue;
         }
 
