@@ -49,14 +49,6 @@ a img {
 /* reset */
 
 
-      /* Hero STYLES*/
-      .full-hero{
-        background-color: #c7dbfc;
-        height: 40vh;
-
-
-      }
-
 
 
       /* GLOBAL STYLES*/
@@ -74,12 +66,14 @@ a img {
      }
 
       .content-container{
-        flex-grow: 1;
+        flex: 1 1 auto;
+        display: flex;
         padding-top: 8vh;
         padding-bottom: 10vh;
         width: 100%;
       
       }
+
       
       h1 {
         font-size: 7vw;
@@ -169,6 +163,32 @@ a img {
           
       }
      
+     /* COLYMN STYLES */
+     
+     .col-three{
+       display: flex;
+       flex: 1;
+     }
+     
+     .col{
+       box-sizing: border-box;
+       padding: 2em;
+     }
+     .col-three .col ~ .col{
+       border-left: 1px solid rgba(0, 0, 0, 0.4);
+     }
+     
+     .col-three .col-nav{
+       flex: 0 1 15em;
+     }
+     .col-three .col-content{
+       flex: 1;
+     }
+     
+     .col-three .col-aside{
+       flex:0 1 20em;
+     }
+     
       /* Hero STYLES*/
       .full-hero{
         background-color: #c7dbfc;
@@ -238,15 +258,14 @@ a img {
       }
       
       .callout-title{
-        flex-grow: 1;
-        flex-basis: 0;
-        font-size: 2vw;
+        flex:1 1 0;
+        font-size: 3vw;
         text-align:flex-start;
+        
         
       }
       .callout-copy{
-        flex-basis:65em;
-        flex-shrink: 0;
+        flex: 0 0 65em;
         padding:0 2vw;
         
       }
@@ -295,3 +314,47 @@ a img {
           color: blue;
         }
 
+/* GALLERY STYLES */
+
+.gallery-thumbs{
+  height: 90vh;
+  overflow: scroll;
+}
+
+.gallery-thumbs > div{
+  cursor: pointer;
+}
+
+.gallery-thumbs img{
+  box-sizing: border-box;
+  box-shadow: 0 0 0 5px transparent;
+  display: inline-block;
+  margin: 0 0 10px;
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+.gallery-thumbs img:hover{
+  opacity: 1;
+}
+
+.gallery-thumbs .current img{
+  box-shadow: 0 0 0 5px #ed6e2f;
+  opacity: 1;
+}
+
+.gallery-photo{
+  position: relative;
+}
+.gallery-photo img{
+  width: 100%;
+}
+
+.gallery-info{
+  font-size: 0.8rem;
+}
+
+.gallery-info h3{
+  margin-bottom: 1em;
+}
