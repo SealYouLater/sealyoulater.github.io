@@ -98,6 +98,12 @@ a img {
       	max-width: 70%;
       	text-align: center;
       }
+      
+      h4{
+        color: #999;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
 
      /* HEADER styles */
       .header{
@@ -188,6 +194,45 @@ a img {
      .col-three .col-aside{
        flex:0 1 20em;
      }
+     .col-two {
+       display: flex;
+     }
+     .col-two .col-aside{
+       flex: 0 0 20em;
+       order: 1;
+     }
+     
+     .col-two .col-content{
+       flex: 1;
+     }
+     
+     
+     
+     /* PAGE STYLES */
+     
+     .page{
+       width: 85vw;
+       max-width: 980px;
+       margin: 10vh auto 15vh;
+     }
+     
+     .page h1{
+       font-size: 3em;
+       margin-bottom: 1em;
+       text-align: center;
+     }
+     
+     .page h2{
+       margin-bottom: 0.5em;
+       }
+       
+       .page h4{
+         margin-bottom: 1em;
+       }
+       
+       
+       
+       
      
       /* Hero STYLES*/
       .full-hero{
@@ -357,4 +402,27 @@ a img {
 
 .gallery-info h3{
   margin-bottom: 1em;
+}
+
+
+/* blog styles */
+
+.blog-recent{
+  text-align: right;
+}
+
+.blog-title-lost{
+  list-style: none;
+  padding: 0;
+}
+.blog-title-list li ~ li{
+  margin-top: 1.5em;
+}
+
+.blog-title-list span{
+  display: block;
+  color: #999;
+  font-size: 0.8em;
+  font-style: italic
+  margin-top: 0.5em;
 }
