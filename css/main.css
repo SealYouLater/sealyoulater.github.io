@@ -248,6 +248,11 @@ a img {
         background-position: center top;
         
       }
+      .half-hero{
+        background-position: center center;
+        background-size: cover;
+        height: 40vh;
+      }
 
       /* SOCIAL STYLES */
     .social-link {
@@ -425,4 +430,88 @@ a img {
   font-size: 0.8em;
   font-style: italic
   margin-top: 0.5em;
+}
+
+.blog-posts ~ .blog-posts {
+  border-top: 1px dotted rgba(0,0,0,0.5);
+  margin-top: 4em;
+  padding-top: 4em;
+}
+
+.blog-posts  .post-header{
+  font-size: 0.8rem;
+}
+
+.post-header{
+  margin-bottom: 1.5em;
+}
+
+.post-header img,
+.post-header .scoial-link{
+  margin-right: 0.5em;
+}
+
+.post-header img{
+  border-radius: 99px;
+  display: inline-block;
+  height: 2.5em;
+  vertical-align: middle;
+  
+}
+
+.posts-image{
+  background-position: center;
+  background-size: cover;
+  height: 6em;
+  margin: 1.5em;
+}
+
+.blog-title-list img {
+  border-radius: 99px;
+  display: inline-block;
+  height: 2em;
+  vertical-align: middle;
+}
+
+.post {
+  width: 100%;
+  
+}
+
+.post-content,
+.post-footer{
+  margin: auto;
+  max-width: 40em;
+  width: 85vw;
+}
+
+.pull-left{
+  float: left;
+  margin: 2em 2em 2em -2%;
+}
+
+.pull-right{
+  float: right;
+  margin: 2em -2% 2em 2em;
+}
+.post-aside{
+  background-color: rgba(0, 0, 0, 0.01);
+  float: right;
+  margin: 0 0 2em 2em;
+  padding: 2em;
+}
+
+.post .post-header{
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+.post-content{
+  font-size: 1.1rem;
+}
+.post-footer{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.8em;
+  margin-top: 3em;
+  padding-top:2em;
 }
