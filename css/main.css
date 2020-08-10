@@ -260,6 +260,14 @@ html,body
       .drop-menu a:hover{
         background-color: rgba(0,0,0,0.1);
       }
+      
+      
+      /* mobile menu */
+      
+      .mobile-menu-check, 
+      .show-mobile-menu {
+        display: none;
+      }
            
      /* COLYMN STYLES */
      
@@ -647,6 +655,72 @@ html,body
   .header-nav a,
   .drop-trigger{
     color: #fff;
+  }
+  
+  /* mobile menu */
+  
+  .show-mobile-menu{
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: right;
+    padding: 1.5em;
+    position: relative;
+    margin-top: 1.5vh;
+  }
+  .header-nav{
+    background-color: #444;
+    box-sizing: border-box;
+    left: 0;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 10vh;
+    transition: all 0.5s ease-in-out;
+    width: 100vw;
+    z-index: 9;
+    text-align: center;
+  }
+  
+  .header-nav li{
+    display: block;
+    margin-top: 1em;
+    
+  }
+  
+  .header-nav li:last-child{
+    margin-bottom: 1em;
+  }
+  .header-nav li:first-child a{
+    color: #fff;
+  }
+  
+  .header-nav .drop-trigger{
+    padding-right: 0;
+  }
+ 
+ /* hide dropdown */
+ 
+ .header-nav .dropdown:hover .drop-menu,
+ .header-nav .drop-trigger:after{
+  display:none; 
+ }
+ 
+  .mobile-menu-check:checked ~ .header-nav {
+    max-height: 1000px;
+  }
+  
+  .mobile-menu-check:checked ~ .show-mobile-menu:after{
+    color: #22A7F0;
+    background-color: #000;
+    content: "CLOSE";
+    left: 0;
+    position: absolute;
+    top: 0;
+    top: 1.5em;
+    width: 100%;
+    text-align: center;
   }
   
   /*Home STYLES*/
