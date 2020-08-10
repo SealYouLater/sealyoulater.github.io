@@ -1,10 +1,10 @@
 ---
 layout: post
-title: This is the title of the second post
+title: second post
 postHero: /images/banner.jpg
-author: Me, Myself, and I
-authorTwitter: https://twitter.com/mhartl
-gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
+author: M.S.
+authorTwitter: https://twitter.com/SealYouLater
+gravatar: https://pbs.twimg.com/profile_images/625452985364152320/45pkv2fW_400x400.jpg
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
 ---
 

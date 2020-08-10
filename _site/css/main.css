@@ -360,17 +360,17 @@ html,body
         background: rgba(0,0,0, 0.5);
         display: inline-block;
         font-family: helvetica, arial, sans;
-        font-size: 1rem;
+        font-size: 1.7em;
         font-weight: bold;
         text-align: center;
         text-decoration: none;
         border-radius: 99px;
         box-sizing: border-box;
-        height: 2.5em;
-        line-height:1;
-        padding-top: 0.85em;
+        height: 1.5em;
+        line-height: 1;
+        padding-top: 0.25em;
         vertical-align: middle;
-        width: 2.5em;
+        width: 1.5em;
           }
 
    	.social-link:hover,
@@ -684,24 +684,14 @@ html,body
   }
   
   .header-nav li{
-<<<<<<< HEAD
-
+    border: 0;
     display: block;
     margin-top: 1em;
     margin: 1em 0 0;
     padding: 0;
     
   }
-  .header-nav li ~ li{
-    border: 0;
-  }
-=======
-    display: block;
-    margin-top: 1em;
-    
-  }
-  
->>>>>>> 67c68068e3e4aabb816780e28220dfc2764ebaac
+
   .header-nav li:last-child{
     margin-bottom: 1em;
   }
