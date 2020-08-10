@@ -684,6 +684,7 @@ html,body
   }
   
   .header-nav li{
+<<<<<<< HEAD
 
     display: block;
     margin-top: 1em;
@@ -694,6 +695,13 @@ html,body
   .header-nav li ~ li{
     border: 0;
   }
+=======
+    display: block;
+    margin-top: 1em;
+    
+  }
+  
+>>>>>>> 67c68068e3e4aabb816780e28220dfc2764ebaac
   .header-nav li:last-child{
     margin-bottom: 1em;
   }
