@@ -182,6 +182,8 @@ html,body
         positon: relative;
         }
       
+
+      
       .drop-trigger{
         display: inline-block;
         padding-right: 1.5em;
@@ -351,7 +353,13 @@ html,body
       .half-hero{
         background-position: center center;
         background-size: cover;
+        box-sizing: border-box;
         height: 40vh;
+        overflow: hidden;
+        position: relative;
+        margin-right:1.9em;
+        margin-left:1.9em;
+        
       }
 
       /* SOCIAL STYLES */
@@ -635,6 +643,10 @@ html,body
   height: 33vh;
   padding-bottom: 53vw;
 }
+.half-hero{
+        margin-right:0em;
+        margin-left:0em
+      }
   /* HEADER STYLES */
   .header-nav{
     padding: 3vh 1em 0 0;
