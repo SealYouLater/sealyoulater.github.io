@@ -1,6 +1,18 @@
   <head>
-    <script src="https://kit.fontawesome.com/1d465e6116.js" crossorigin="anonymous"></script>
+    
+    {% if page.title %}
+    <title>{{ page.title}} | Off The Tape Podcast </title>
+    {% else %}
     <title>Off The Tape Podcast</title>
+    {% endif %}
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta name="description" content="The Hockey Podcast.">
+    {% endif %}
+    
+    <script src="https://kit.fontawesome.com/1d465e6116.js" crossorigin="anonymous"></script>
+    <link href="/images/Logo.png" rel="icon">
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/main.css"
   </head>
