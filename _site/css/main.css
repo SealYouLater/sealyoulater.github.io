@@ -158,8 +158,8 @@ html,body
       	width: 8vh;
       	left: -6px;
       	text-align:center;
-      	padding:10px
-      	box-sizing: border-box;
+      	padding:10px;
+      	
       }
       .header-logo img{
         height:80%;
@@ -459,10 +459,13 @@ html,body
       text-align: center;
         }
     .bio-box img{
-      width: 100%;
+      width: 90%;
+      max-height: 200px;
+      object-fit: cover;
       display: inline-block;
       text-align: center;
       border-radius: 99px;
+      
     }
     .bio-copy{
           font-size: 0.75em;
@@ -767,9 +770,13 @@ html,body
   }
   .bio-box img{
     width: 50%;
-     
-  }
-  
+    max-width: 162px;
+    max-height: 162px;
+    object-fit: cover;
+    height: auto;
+    
+      
+    }
   /*Episode styles*/
   .gallery{
     flex-direction: column;
