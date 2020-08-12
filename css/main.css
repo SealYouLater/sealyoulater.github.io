@@ -207,9 +207,10 @@ html,body
         box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
         display: none;
         list-style: none;
-        padding: 1em 0 0;
+        padding: 1em 0 0 0;
         position: absolute;
         right: 185;
+        top: 60;
         z-index: 9;
       }
       .drop-menu:before{
