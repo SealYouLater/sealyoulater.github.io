@@ -1,14 +1,11 @@
----
-layout: post
-title: Episode 1
-postHero: /images/banner.jpg
-author: M.S.
-authorTwitter: https://twitter.com/SealYouLater
-gravatar: https://pbs.twimg.com/profile_images/625452985364152320/45pkv2fW_400x400.jpg
-
----
-<ul class="social-list">
-        <li>
+I"‡<ul class="social-list">
+          <li>
+            <a href="https://www.reddit.com/r/OffTheTape/" class="social-link" target="_blank"><i class="fab fa-reddit-alien"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/OffTheTape" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
             <a href="https://www.youtube.com/channel/UCQpEu1GdQ7nW-YfyIlXuiVA" class="social-link" target="_blank"><i class="fab fa-youtube"></i></a>
           </li>
           <li>
@@ -18,9 +15,4 @@ gravatar: https://pbs.twimg.com/profile_images/625452985364152320/45pkv2fW_400x4
           </li>
           
         </ul>
-        
-<br> Episode 1 out NOW!   
-
-<div class="iframe_container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DoJplkBLTkA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+:ET

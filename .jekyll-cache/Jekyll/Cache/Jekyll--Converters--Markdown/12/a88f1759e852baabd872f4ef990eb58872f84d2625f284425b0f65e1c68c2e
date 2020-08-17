@@ -1,13 +1,4 @@
----
-layout: post
-title: Episode 1
-postHero: /images/banner.jpg
-author: M.S.
-authorTwitter: https://twitter.com/SealYouLater
-gravatar: https://pbs.twimg.com/profile_images/625452985364152320/45pkv2fW_400x400.jpg
-
----
-<ul class="social-list">
+I"[<ul class="social-list">
         <li>
             <a href="https://www.youtube.com/channel/UCQpEu1GdQ7nW-YfyIlXuiVA" class="social-link" target="_blank"><i class="fab fa-youtube"></i></a>
           </li>
@@ -18,9 +9,10 @@ gravatar: https://pbs.twimg.com/profile_images/625452985364152320/45pkv2fW_400x4
           </li>
           
         </ul>
-        
-<br> Episode 1 out NOW!   
+
+<p><br /> Episode 2 out now!</p>
 
 <div class="iframe_container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DoJplkBLTkA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-cmxgqgGslg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
+:ET
