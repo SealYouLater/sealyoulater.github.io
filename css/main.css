@@ -75,7 +75,7 @@ html,body
 }
       .content-container{
         flex: 1 1 auto;
-        display: flex;
+        
         padding-top: 8vh;
         padding-bottom: 10vh;
         width: 100%;
@@ -342,7 +342,7 @@ html,body
         background-color: #c7dbfc;
         background-size: cover;
         box-sizing: border-box;
-        height: 75vh;
+        height: 100%;
         padding-top: 11vh;
 
       }
