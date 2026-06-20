@@ -14,7 +14,7 @@ description: Episode page where you can find episodes of the podcast.
           <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
             <span>Posted: {{ post.date | date: '%B %d, %Y' }}</span>
-            <img src="{{ post.gravatar}}">
+            <img src="{{ post.gravatar }}" alt="">
           </li>
         {% endfor %}
       </ul>
@@ -25,8 +25,8 @@ description: Episode page where you can find episodes of the podcast.
           <header class="post-header">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <div class="post-byline">
-              <img src="{{ post.gravatar }}" />
-              <a href="{{ post.authorTwitter }}" class="social-link"><i class="fab fa-twitter"></i></a>
+              <img src="{{ post.gravatar }}" alt="">
+              <a href="{{ post.authorTwitter }}" class="social-link" target="_blank" rel="noreferrer"><i class="fab fa-twitter" aria-hidden="true"></i><span class="visually-hidden">{{ post.author }} on Twitter</span></a>
               by: {{ post.author }}
               <span> - {{ post.date | date: '%B %d, %Y' }}</span>
             </div>

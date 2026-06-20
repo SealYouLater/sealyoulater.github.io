@@ -1,32 +1,18 @@
 ---
 layout: default
+title: Episodes
+description: All episodes of the Off The Tape hockey podcast.
 ---
 
-<div class="gallery col-three">
-  <div class="col col-nav gallery-thumbs" id="gallery-thumbs">
-    <div class="current">
-      <img src="/images/small/slide1.jpg" alt="Image title 1">
-    </div>
-    <div>
-      <img src="/images/small/slide1.jpg" alt="Image title 2">
-    </div>
-     <div>
-      <img src="/images/small/slide1.jpg" alt="Image title 2">
-    </div>
-     <div>
-      <img src="/images/small/slide1.jpg" alt="Image title 2">
-    </div>
-     <div>
-      <img src="/images/small/slide1.jpg" alt="Image title 2">
-    </div>
-  </div>
-  <div class="col col-content">
-    <div class="gallery-photo" id="gallery-photo">
-      <img src="/images/large/slide1.jpg" alt="Image title 1">
-    </div>
-  </div>
-  <div class="col col-aside gallery-info" id="gallery-info">
-    <h3>Image Title 1</h3>
-    <p>Image description 1</p>
+<div class="page episodes-page">
+  <h1>All episodes</h1>
+  <div class="episodes-grid">
+    {% for post in site.posts %}
+      <a class="episode-card" href="{{ post.url }}">
+        <div class="episode-card-image" style="background-image:url({{ post.postHero }})"></div>
+        <h2>{{ post.title }}</h2>
+        <span class="episode-card-date">{{ post.date | date: '%B %d, %Y' }}</span>
+      </a>
+    {% endfor %}
   </div>
 </div>
